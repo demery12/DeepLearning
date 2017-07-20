@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Handwritten Digit Recognition using Convolutional Neural Networks</title>
+  
+  
+  
+      <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<body>
+ 
+		<h1>Intelligent Character Recognition that is <span>Not That Smart</span></h1>
+
+
+		<div style="margin-left:175px; margin-top:460px; float:left; position:absolute;">
+			<!--
+			<a href="#" class="myButton"><span style=" font-weight: 400; font-family: 'Open Sans', Helvetica;	"> Predict </span></a>
+			-->	
+			<form action = "/predict/" method = "POST" enctype="multipart/form-data">
+			    <input type="file" name="photo" id="photo_file">
+			    <input type="text" name="tt">
+			    <input type="submit" name="Predict"></input>
+			</form>
+
+		</div>
+</body>
+</html>

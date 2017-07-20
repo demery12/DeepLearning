@@ -1,0 +1,44 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300');
+
+* { margin: 0; padding: 0; }
+
+html
+{
+	background-image: -webkit-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
+	background-image: -moz-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
+	background-image: -ms-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
+	background-image: -o-radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
+	background-image: radial-gradient(top center, circle cover, #E7E7E8 30%, #C6C6C6);
+	height: 100%;
+  
+}
+
+h1
+{
+
+	text-align: center;
+	font-family: 'Open Sans', Helvetica;
+	color: #807F7D;
+	font-size: 25px;
+	font-weight: 300;
+	z-index: -1;
+	margin: 20px;
+}
+
+h1 span { color: #4DAF7C; font-weight: 400; }
+
+li 
+{
+	margin: 30px:
+}
+/* Debug */
+
+#debug
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+}
+
+

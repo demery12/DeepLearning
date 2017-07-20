@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Handwritten Digit Recognition using Convolutional Neural Networks</title>
+  
+  
+  
+      <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<body>
+	<h1>Intelligent Character Recognition that is <span>Not That Smart</span></h1>
+	<div>
+	    <li>
+		{% for result, filename in results %}
+			<ul>{{ result }}  <img src="{{filename}}"></ul>
+
+		{% endfor %}
+		</li>
+	</div>
+</html>
